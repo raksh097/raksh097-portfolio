@@ -5,7 +5,7 @@ A responsive animated portfolio website for Rakshitha N P, a 4th year cybersecur
 ## Featured Projects
 
 - Disk Recovery Image, completed during 3rd year
-- Cyber Bullying Detection and Mitigation on Social Media using NLP and ML, completed during 3rd year
+- Cyber Bullying Detection and Mitigation on Social Media using NLP and ML, completed as a 3rd year mini project with my project partner
 
 ## Built With
 
