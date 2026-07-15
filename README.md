@@ -1,20 +1,23 @@
-# Rakshitha N P Portfolio
+# Rakshitha N P Cybersecurity Portfolio
 
-A simple personal portfolio starter for the GitHub user `raksh097`.
+A responsive animated portfolio website for Rakshitha N P, a 3rd year cybersecurity student.
 
-## What is included
+## Featured Projects
 
-- Responsive HTML page
-- Clean CSS layout
-- Small JavaScript interaction
-- Project cards for current and future work
+- Disk Recovery Image
+- Cyber Bullying Detection and Mitigation on Social Media using NLP and ML
 
-## How to view
+## Built With
 
-Open `index.html` in a browser.
+- HTML
+- CSS
+- JavaScript
 
-## Next steps
+## Sections
 
-- Replace placeholder projects with real repositories
-- Add screenshots for each project
-- Update contact details when ready
+- Cybersecurity-focused hero
+- Animated network background
+- Project showcase
+- Skill stack
+- Learning journey
+- GitHub contact link

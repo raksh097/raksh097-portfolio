@@ -3,83 +3,184 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Rakshitha N P | Portfolio</title>
+    <title>Rakshitha N P | Cybersecurity Portfolio</title>
+    <meta
+      name="description"
+      content="Cybersecurity portfolio for Rakshitha N P, featuring disk recovery and NLP-based cyber bullying detection projects."
+    >
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <header class="topbar">
-      <a class="brand" href="#home">Rakshitha N P</a>
+    <canvas id="mesh" aria-hidden="true"></canvas>
+
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Rakshitha N P home">
+        <span class="brand-mark"></span>
+        <span>Rakshitha N P</span>
+      </a>
       <nav aria-label="Primary navigation">
-        <a href="#projects">Projects</a>
+        <a href="#work">Work</a>
         <a href="#skills">Skills</a>
+        <a href="#journey">Journey</a>
         <a href="#contact">Contact</a>
       </nav>
     </header>
 
     <main>
       <section id="home" class="hero">
-        <div class="hero-copy">
-          <p class="eyebrow">GitHub: raksh097</p>
-          <h1>Building practical projects, one clean commit at a time.</h1>
-          <p>
-            A starter portfolio for sharing real work, learning notes, and project progress on GitHub.
+        <div class="hero-content reveal">
+          <p class="eyebrow">Cybersecurity Student • 3rd Year</p>
+          <h1>Securing systems, recovering evidence, and detecting online harm with ML.</h1>
+          <p class="hero-text">
+            I am Rakshitha N P, a cybersecurity learner building practical projects around
+            digital forensics, data recovery, threat awareness, and safer social media systems.
           </p>
-          <div class="actions">
-            <a class="button primary" href="#projects">View Projects</a>
-            <a class="button" href="https://github.com/raksh097">GitHub Profile</a>
+          <div class="hero-actions">
+            <a class="button primary" href="#work">Explore Projects</a>
+            <a class="button ghost" href="https://github.com/raksh097">GitHub Profile</a>
+          </div>
+        </div>
+
+        <div class="signal-panel reveal" aria-label="Cybersecurity focus panel">
+          <div class="panel-top">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="scanline"></div>
+          <p class="terminal-line">profile.scan --user raksh097</p>
+          <p class="terminal-line muted">focus: disk recovery | nlp safety | ml detection</p>
+          <div class="signal-grid">
+            <div>
+              <strong>02</strong>
+              <span>Core Projects</span>
+            </div>
+            <div>
+              <strong>3rd</strong>
+              <span>Year Cybersecurity</span>
+            </div>
+            <div>
+              <strong>ML</strong>
+              <span>Detection Pipeline</span>
+            </div>
+            <div>
+              <strong>DF</strong>
+              <span>Recovery Practice</span>
+            </div>
           </div>
         </div>
       </section>
 
-      <section id="projects" class="section">
-        <div class="section-heading">
-          <p class="eyebrow">Projects</p>
-          <h2>Current Work</h2>
+      <section id="work" class="section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Featured Work</p>
+          <h2>Projects Built Around Real Cybersecurity Problems</h2>
         </div>
-        <div class="project-grid">
-          <article class="project-card">
-            <h3>Portfolio Site</h3>
-            <p>A responsive personal site that introduces your work and links to your GitHub profile.</p>
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
+
+        <div class="project-list">
+          <article class="project-card reveal">
+            <div class="project-index">01</div>
+            <div class="project-body">
+              <h3>Disk Recovery Image</h3>
+              <p>
+                A digital forensics project focused on recovering and analyzing disk image data,
+                understanding file structures, and documenting recovery steps clearly.
+              </p>
+              <ul>
+                <li>Disk image handling and recovery workflow</li>
+                <li>Forensics documentation and evidence tracking</li>
+                <li>Practical focus on data loss and investigation scenarios</li>
+              </ul>
+              <div class="tag-row">
+                <span>Digital Forensics</span>
+                <span>Disk Recovery</span>
+                <span>Evidence Handling</span>
+              </div>
+            </div>
           </article>
-          <article class="project-card">
-            <h3>Learning Log</h3>
-            <p>A place to track daily practice, notes, and small wins from programming sessions.</p>
-            <span>Git</span>
-            <span>Markdown</span>
-          </article>
-          <article class="project-card">
-            <h3>Next Build</h3>
-            <p>Reserve this slot for your next app, assignment, or experiment.</p>
-            <span>Planned</span>
+
+          <article class="project-card reveal">
+            <div class="project-index">02</div>
+            <div class="project-body">
+              <h3>Cyber Bullying Detection and Mitigation on Social Media</h3>
+              <p>
+                An NLP and machine learning project that identifies harmful social media text and
+                supports mitigation workflows for safer online interaction.
+              </p>
+              <ul>
+                <li>Text preprocessing and feature extraction</li>
+                <li>ML-based cyber bullying classification</li>
+                <li>Mitigation-focused system design for flagged content</li>
+              </ul>
+              <div class="tag-row">
+                <span>NLP</span>
+                <span>Machine Learning</span>
+                <span>Online Safety</span>
+              </div>
+            </div>
           </article>
         </div>
       </section>
 
-      <section id="skills" class="section split">
-        <div>
-          <p class="eyebrow">Skills</p>
-          <h2>Tools To Grow</h2>
+      <section id="skills" class="section skills-section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Skill Stack</p>
+          <h2>Areas I Am Building In</h2>
         </div>
-        <ul class="skill-list">
-          <li>Git and GitHub basics</li>
-          <li>Responsive web pages</li>
-          <li>Project documentation</li>
-          <li>Clean commit history</li>
-        </ul>
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <h3>Cybersecurity</h3>
+            <p>Threat awareness, basic security principles, forensics thinking, and incident documentation.</p>
+          </article>
+          <article class="skill-card reveal">
+            <h3>Digital Forensics</h3>
+            <p>Disk image recovery, evidence handling, file system exploration, and report-oriented workflows.</p>
+          </article>
+          <article class="skill-card reveal">
+            <h3>ML and NLP</h3>
+            <p>Text preprocessing, classification, model evaluation, and applied safety use cases.</p>
+          </article>
+          <article class="skill-card reveal">
+            <h3>Web and Git</h3>
+            <p>Responsive websites, clean project structure, GitHub repositories, and readable documentation.</p>
+          </article>
+        </div>
       </section>
 
-      <section id="contact" class="section contact">
+      <section id="journey" class="section journey">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Journey</p>
+          <h2>Current Direction</h2>
+        </div>
+        <div class="timeline reveal">
+          <div>
+            <span>Now</span>
+            <p>3rd year cybersecurity student growing through hands-on projects.</p>
+          </div>
+          <div>
+            <span>Focus</span>
+            <p>Digital forensics, machine learning, NLP, and cyber safety systems.</p>
+          </div>
+          <div>
+            <span>Next</span>
+            <p>Publishing more projects with clear READMEs, screenshots, and reproducible steps.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact reveal">
         <p class="eyebrow">Contact</p>
-        <h2>Keep Building</h2>
-        <p>Use this portfolio as a home base for real projects and consistent progress.</p>
+        <h2>Open to Learning, Projects, and Collaboration</h2>
+        <p>
+          I am continuing to build practical cybersecurity projects and improve my GitHub profile
+          with real work, clear documentation, and consistent progress.
+        </p>
+        <a class="button primary" href="https://github.com/raksh097">Visit GitHub</a>
       </section>
     </main>
 
     <footer>
-      <p>Made for Rakshitha N P.</p>
+      <p>Rakshitha N P • Cybersecurity Portfolio</p>
     </footer>
 
     <script src="script.js"></script>
