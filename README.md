@@ -1,6 +1,6 @@
 # Rakshitha N P Cybersecurity Portfolio
 
-A responsive animated portfolio website for Rakshitha N P, a 3rd year cybersecurity student.
+A responsive animated portfolio website for Rakshitha N P, a 4th year cybersecurity student.
 
 ## Featured Projects
 
