@@ -57,6 +57,21 @@ function drawMesh() {
   requestAnimationFrame(drawMesh);
 }
 
+function typeTerminalLines() {
+  if (reduceMotion) return;
+
+  document.querySelectorAll("[data-type]").forEach((line, lineIndex) => {
+    const text = line.dataset.type;
+    line.textContent = "";
+
+    Array.from(text).forEach((character, characterIndex) => {
+      window.setTimeout(() => {
+        line.textContent += character;
+      }, 520 + lineIndex * 680 + characterIndex * 24);
+    });
+  });
+}
+
 const revealObserver = new IntersectionObserver(
   (entries) => {
     entries.forEach((entry) => {
@@ -73,5 +88,6 @@ document.querySelectorAll(".reveal").forEach((element) => {
 });
 
 resizeCanvas();
+typeTerminalLines();
 drawMesh();
 window.addEventListener("resize", resizeCanvas);
